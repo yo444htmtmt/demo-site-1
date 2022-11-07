@@ -49,7 +49,7 @@ const Swiper1 = () => {
       <Swiper
         // install Swiper modules
         modules={[Navigation, Pagination, A11y, Autoplay]}
-        spaceBetween={50}
+        spaceBetween={150}
         slidesPerView={1}
         loop={true}
         navigation={{ enabled: true }}
@@ -64,7 +64,7 @@ const Swiper1 = () => {
           <div className={"swiper__title"}>test1</div>
           <Image
             src={"/demo1.jpg"}
-            width={300}
+            width={500}
             height={300}
             alt={"demo-image"}
             priority={true}
@@ -75,7 +75,7 @@ const Swiper1 = () => {
           <div className={"swiper__title"}>test2</div>
           <Image
             src={"/demo2.jpg"}
-            width={300}
+            width={500}
             height={300}
             alt={"demo-image"}
             priority={true}
@@ -85,7 +85,7 @@ const Swiper1 = () => {
           <div className={"swiper__title"}>test3</div>
           <Image
             src={"/demo3.jpg"}
-            width={300}
+            width={500}
             height={300}
             alt={"demo-image"}
             priority={true}
@@ -95,7 +95,7 @@ const Swiper1 = () => {
           <div className={"swiper__title"}>test4</div>
           <Image
             src={"/demo4.png"}
-            width={300}
+            width={500}
             height={300}
             alt={"demo-image"}
             priority={true}

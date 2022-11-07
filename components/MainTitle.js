@@ -1,4 +1,5 @@
 import React from "react";
+import { useInView } from "react-intersection-observer";
 import styled, { keyframes } from "styled-components";
 
 const fadeIn = keyframes`
