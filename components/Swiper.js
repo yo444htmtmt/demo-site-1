@@ -94,7 +94,7 @@ const Swiper1 = () => {
         <SwiperSlide>
           <div className={"swiper__title"}>test4</div>
           <Image
-            src={"/demo4.png"}
+            src={"/demo4.jpg"}
             width={500}
             height={300}
             alt={"demo-image"}

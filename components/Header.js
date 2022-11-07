@@ -107,7 +107,7 @@ const Header = () => {
   return (
     <div className="nav-trigger" ref={ref}>
       <HeaderContainer inView={inView}>
-        <HeaderLogo>MayoSite</HeaderLogo>
+        <HeaderLogo>Site Title</HeaderLogo>
         <MenuIcon
           onClick={classToggle}
           className={state ? "menu-open" : "menu-close"}

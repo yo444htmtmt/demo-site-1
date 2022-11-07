@@ -120,7 +120,7 @@ const SubContent = () => {
               </StyledImage>
               <StyledImage>
                 <Image
-                  src={"/demo4.png"}
+                  src={"/demo4.jpg"}
                   fill
                   alt={"image"}
                   priority={true}

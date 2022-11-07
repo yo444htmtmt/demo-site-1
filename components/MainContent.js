@@ -45,7 +45,7 @@ const MainContent = () => {
               <ImageTitle />
             </div>
             <div className={"house__item"}>
-              <SlideImage image={"/demo4.png"} />
+              <SlideImage image={"/demo4.jpg"} />
               <ImageTitle />
             </div>
           </div>
